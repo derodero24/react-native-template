@@ -6,6 +6,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:@typescript-eslint/strict",
+    "plugin:tailwindcss/recommended",
     "@react-native",
     "plugin:react-native-a11y/ios"
   ],
@@ -52,7 +53,6 @@
         "newlines-between": "always"
       }
     ],
-    "unused-imports/no-unused-imports": "warn",
     "@typescript-eslint/no-unused-vars": [
       "warn",
       {
@@ -61,6 +61,8 @@
         "destructuredArrayIgnorePattern": "^_",
         "caughtErrorsIgnorePattern": "^_"
       }
-    ]
+    ],
+    "tailwindcss/no-custom-classname": "off",
+    "unused-imports/no-unused-imports": "warn"
   }
 }
